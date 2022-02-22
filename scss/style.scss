@@ -1,0 +1,22 @@
+@import "_nullstyle.scss";
+
+.block__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 20px solid rgb(80, 170, 255);
+    height: 850px;
+}
+
+.block__column {
+    flex: 0 1 auto;
+}
+
+.block__item {
+    background-color: rgb(155, 155, 160);
+    border: 5px solid red;
+    text-align: center;
+    padding: 100px 25px;
+    font-size: 50px;
+    color: #fff;
+}
